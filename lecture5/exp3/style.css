@@ -1,0 +1,18 @@
+/*please make only rhino and zebra blue*/
+#rhino ,#zebra{
+    color:blue;
+}
+/*only hufflepuff gold*/
+#besthouse{
+    color:gold;
+}
+
+
+/*select duck with the highest level of specficity*/
+html> head + body > h1#hi + section.top + section.middle + article.areDuckDinosaurs >h2.likesToQuack.fight10r100 {
+    color:red !important;
+ }
+/*select rhino with highest level of specificity*/
+html > head + body > h1#hi + section.top > h2#rhino{
+    color:green !important;
+}

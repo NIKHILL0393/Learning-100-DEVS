@@ -1,0 +1,14 @@
+  h1{
+    color:purple;
+  }
+section >h2 {
+    color:yellow;
+  }
+article >h2{
+    color:orange !important;
+    font-size:30px;
+    font-weight:bold;
+}
+section>article > h2{ 
+    color:green;
+}   

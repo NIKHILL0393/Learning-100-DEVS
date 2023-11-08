@@ -1,0 +1,17 @@
+/*please make only World and Zebra Blue*/
+section> h2{
+    color:blue;
+}
+/*please make only Zebra purple*/
+section >h2 + h2{
+    color:purple;
+}
+/*please make only hufflepuff gold*/
+section >article> h2+h2{
+    color:gold;
+}
+/*please keep hufflepuff gold and make only Unicorn gray*/
+section> article>  h2{
+    color:gray;
+}
+ 
