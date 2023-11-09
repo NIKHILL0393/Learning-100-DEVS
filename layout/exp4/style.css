@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:lightblue ;
+}
+nav,main,aside{
+    float:left;
+    background:lightblue ;
+}
+nav{
+    width:10%;
+}    
+main{
+    width:50%;
+    border:1px solid red;
+    font-size:20px;
+    height:500px;
+}
+aside{
+    width:40%;   
+
+}
