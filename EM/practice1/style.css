@@ -1,0 +1,35 @@
+.sometext{
+    font-size:12px;
+}
+.moretext{
+    font-size:16px;
+}
+.lasttext{
+    font-size:27px;
+}
+
+
+.sometext{
+    font-size:24px;
+}
+.moretext{
+    font-size:32px;
+}
+.lasttext{
+    font-size:54px;
+}
+
+
+.heyo{
+   font-size:10px;
+}
+.sometext{
+    font-size:1.2em;
+}
+.moretext{
+    font-size:1.6em;
+}
+.lasttext{
+    font-size:2.7em;
+}
+

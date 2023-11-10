@@ -1,0 +1,23 @@
+h1{
+    padding:10px 0;
+    margin:0 10px;
+    border-top:2px solid purple;
+    border-bottom:2px solid purple;
+    background:rgba(215,170,50,1);
+}
+h2{
+    padding:0 10px;
+    border-left: 2px solid rgba(170,60,70,1);
+    border-right: 2px solid rgba(170,60,70,1);
+    background:orange;
+}
+section{
+    border-left:10px solid magenta;
+    padding:100px 0;
+    margin: 0 200px 0 0;
+}
+span{
+    border:2px solid dodgerblue;
+    padding :0 10px 10px 0;
+    background:red;
+}
