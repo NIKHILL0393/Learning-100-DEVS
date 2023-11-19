@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Property </title>
+    <style>
+    body{ 
+        margin:0 auto;
+        max-width:500;
+        width:50%;
+    }
+    #box{
+        float:left;
+        margin:15px;
+        width:150px;
+        height:150px;
+        border-radius:5px ;
+        background-color: lightblue;
+        padding:1em;
+    }
+    .special{
+        background-color: lightgreen;
+        padding:5px;
+        color:white;
+     }
+    </style>
+</head>
+<body>
+    <h1>Float Property</h1>
+    <img id="box" src="data:image/png;base64,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" alt="">
+    <h1 class="special">Resume</h1>
+    <p>A resume is a document that provides a summary of a person's work experience, skills, education, and accomplishments. Resumes are typically used when applying for a job to showcase an individual's qualifications for a specific role.</p>
+</body>
+</html>
