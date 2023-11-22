@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"  href="css/style.css"/>
-    <link rel="stylesheet"  href="normalize.css"/>
 
     <title>Document</title>
+    <style>
+        *{
+            -mozbox-sizing:border-box;
+        }
+        header,footer{
+            height:100px;
+            border:2px solid blue;
+        }
+        section{
+            height:100px;
+            border:2px solid blue;
+            flex:1;
+        }
+        main,.bottom{
+            display:flex;
+        }
+    </style>
 </head>
 <body>
     <header></header>
