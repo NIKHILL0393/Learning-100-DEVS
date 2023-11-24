@@ -1,0 +1,18 @@
+.container{
+    border:5px solid brown;
+    height:500px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:10px;
+    justify-content:space-around;
+    align-items:center;  
+    align-content: space-evenly; 
+}
+.box{
+    border: 5px solid blue ;
+    width:80px;
+    font-size:1em;
+    font-weight: underline;
+    color:gold;
+}         
