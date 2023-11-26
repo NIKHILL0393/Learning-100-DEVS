@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color:#222;
+    --secondary-text-color:#444;
+    --card-background-color:#fff;
+    --background-color:gold;
+    --default-margin:30px;
+}
+
+.container{
+    min-height: 100vh;
+    padding:40px;
+    background-color: var(--background-color);
+}
+
+h1{
+    text-align:center;
+    color:var( --primary-text-color);
+}
+.box{
+    padding:20px;
+    margin-block: var(--default-margin);
+    background-color:var(--card-background-color);
+    border-radius: var(--default-margin);
+}
+h2{
+    margin-bottom: var(--default-margin);
+    background-color:var(--my-var) ;
+}
+p{
+    color:var(--secondary-text-color)
+}

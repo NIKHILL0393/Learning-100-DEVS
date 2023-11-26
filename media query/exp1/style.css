@@ -1,4 +1,10 @@
 /*on mobile make all sections stack*/
+
+section{
+    border: 2px red solid;
+    width: 100px;
+    height: 80px;
+}
 @media all and (max-width:500px){
     main section, .bottom section{
         width:100%;
