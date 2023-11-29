@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.primary:link{
+    color :green;
+    padding:10px;
+}
+.primary:visited{
+    color:blue;
+}
+.primary:hover{
+    color:red;
+    background-color: black;
+}
+.primary:active{
+    color:black;
+    background-color: white;
+    border:5px solid yellow;
+}
+
